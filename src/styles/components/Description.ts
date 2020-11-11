@@ -9,7 +9,7 @@ export const Container = styled.div`
     flex-direction: column;
     
     max-width: 35rem;
-    margin: 16% 5rem auto 9.5rem;
+    margin: 26% 5rem auto 9.5rem;
 
     grid-area: DC;
 
@@ -26,17 +26,7 @@ export const Container = styled.div`
         color: #707478;
         line-height: 1.5rem;
         max-width: 30rem;
-        margin-bottom: 3rem;
-    }
-
-    p {
-        margin-top: 1.5rem;
-        color: var(--gray-color);
-
-        a {
-            text-decoration: none;
-            color: #00796B;
-        }
+        margin-bottom: 3.5rem;
     }
 
     @media (max-width: 1500px) {
@@ -102,6 +92,10 @@ export const NewMeetingButton = styled.button`
 
     &:hover {
         background-color: #0B6B61;
+    }
+
+    @media (max-width: 1000px) {
+        width: 100%;
     }
 `;
 

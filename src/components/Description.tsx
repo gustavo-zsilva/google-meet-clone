@@ -33,12 +33,6 @@ const Description: React.FC = () => {
             </FlexWrapper>
 
             <Line />
-
-            <p>
-                <a href="https://support.google.com/meet/?hl=pt-BR#topic=7306097" target="_blank">
-                    Saiba mais
-                </a> sobre o Google Meet
-            </p>
         </Container>
     );
 }
