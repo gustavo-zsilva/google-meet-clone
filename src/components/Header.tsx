@@ -1,20 +1,23 @@
 import React from 'react';
 
-import meetLogo from '../assets/meetLogo.png';
-
-import { Container, MeetText, SettingsIcon } from '../styles/components/Header';
+import { Container, MeetText, SettingsIcon, Logo, AppsIcon, FeedbackIcon, HelpIcon, Avatar } from '../styles/components/Header';
 
 const Header: React.FC = () => {
     return (
         <>
             <Container>
                 <div>
-                    <img src={meetLogo} alt="Meet"/>
+                    <Logo />
                     <MeetText>Meet</MeetText>
                 </div>
 
                 <div>
+                    <HelpIcon />
+                    <FeedbackIcon />
                     <SettingsIcon />
+
+                    <AppsIcon />
+                    <Avatar />
                 </div>
 
             </Container>

@@ -9,11 +9,16 @@ export default createGlobalStyle`
     box-sizing: border-box;
   }
 
+  body {
+    -webkit-font-smoothing: antialiased !important;
+  }
+
   html, body, #root {
     height: 100%;
   }
 
   :root {
     --gray-color: #646368;
+    --light-gray-color: #F5F5F5;
   }
 `;
