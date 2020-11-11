@@ -22,4 +22,6 @@ export const Container = styled.div`
             margin: auto 5%;
         }
     }
+
+    animation: load 1s backwards;
 `;

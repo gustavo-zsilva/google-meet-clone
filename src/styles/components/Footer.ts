@@ -4,6 +4,8 @@ export const FooterP = styled.p `
     margin-top: 1.5rem;
     color: var(--gray-color);
 
+    animation: load 1s backwards;
+
     grid-area: FT;
 
     margin: -2.5rem auto auto 9.5rem;

@@ -11,6 +11,8 @@ export const Container = styled.div`
     max-width: 35rem;
     margin: 26% 5rem auto 9.5rem;
 
+    animation: load 1s backwards;
+
     grid-area: DC;
 
     h1 {

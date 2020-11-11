@@ -21,4 +21,13 @@ export default createGlobalStyle`
     --gray-color: #646368;
     --light-gray-color: #F5F5F5;
   }
+
+  @keyframes load {
+    from {
+      opacity: 0%;
+    }
+    to {
+      opacity: 100%;
+    }
+  }
 `;
